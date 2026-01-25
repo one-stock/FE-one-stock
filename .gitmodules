@@ -1,0 +1,3 @@
+[submodule "FE-one-stock-config"]
+	path = FE-one-stock-config
+	url = https://github.com/one-stock/FE-one-stock-config.git

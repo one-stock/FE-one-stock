@@ -5,6 +5,9 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  const apiUrl = import.meta.env.VITE_API_URL;
+  console.log("현재 모드:", import.meta.env.VITE_MODE);
+  console.log("백엔드 API 주소 :", apiUrl);
 
   return (
     <>
@@ -27,7 +30,7 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p>      
     </>
   )
 }

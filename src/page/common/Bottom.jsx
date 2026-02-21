@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Bottom(){
+const Bottom = () => {
     return (
         <div className='flex'>
             <button className="flex flex-col items-center text-blue-500">

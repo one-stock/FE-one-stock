@@ -11,7 +11,7 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route element= {<Layout />} >
-          <Route path='/' element= {<App />}/>
+          <Route path='/' element= {<App />}/> {/* 추후 main 으로 바꾸기*/}
           <Route path='/stocks' element= {<StockPage />}/>
         </Route>
     </Routes>

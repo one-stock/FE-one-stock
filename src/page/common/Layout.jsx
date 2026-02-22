@@ -10,7 +10,7 @@ const Layout = () => {
                 <header className="fixed max-w-120 top-0 left-1/2 -translate-x-1/2 w-full  h-16 flex items-center bg-main-color z-50">
                     <Header/>
                 </header>
-                <main className="flex grow pt-16 pb-16 h-full w-full bg-main">
+                <main className="flex grow pt-16 pb-16 h-full w-full">
                     <Outlet/>                
                 </main>
                 <footer className="fixed max-w-120 bottom-0 w-full left-1/2 -translate-x-1/2 h-16 flex justify-around items-center bg-bottom-color z-50">

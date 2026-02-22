@@ -5,7 +5,7 @@ import Bottom from './Bottom';
 
 const Layout = () => {
     return (
-        <div className='min-h-dvh w-screen flex justify-center'>
+        <div className='min-h-dvh w-full flex justify-center'>
             <div className="w-full bg-main-color flex flex-col min-h-dvh max-w-120">
                 <header className="fixed max-w-120 top-0 left-1/2 -translate-x-1/2 w-full  h-16 flex items-center bg-main-color z-50">
                     <Header/>

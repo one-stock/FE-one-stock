@@ -12,7 +12,10 @@ const __dirname = path.dirname(__filename);
 export default defineConfig({
   plugins: [react(), 
             tailwindcss(),
-            VitePWA({ registerType: "autoUpdate", manifest: {
+            VitePWA({ devOptions: {
+        enabled: true, // 개발 모드에서 PWA 활성화
+        type: 'module',
+      },registerType: "autoUpdate", manifest: {
         name: 'One Stock',
         short_name: 'ONESTOCK',
         description: '주식 관련 정보 제공 어플',

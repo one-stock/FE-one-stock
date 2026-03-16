@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import App from './App.jsx'
 import Layout from './page/common/Layout.jsx';
 import StockPage from './page/StockPage.jsx';
-import StockInfo from './component/stock/Infomation/StockInfo.jsx';
+import StockInfo from './component/stock/Information/StockInfo.jsx';
 import StockChart from './component/stock/chart/StockChart.jsx';
 import StockFinance from './component/stock/finance/StockFinance.jsx';
 import StockInv from './component/stock/invest/StockInv.jsx';

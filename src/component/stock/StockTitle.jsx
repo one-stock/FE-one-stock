@@ -1,6 +1,6 @@
 import React from 'react';
 
-const StockInfo = () => {
+const StockTitle = () => {
     return (
           <div className='flex flex-col w-full bg-sub-color rounded-lg p-4 gap-2'>
                 <div className='flex w-full justify-end'>
@@ -19,4 +19,4 @@ const StockInfo = () => {
     );
 };
 
-export default StockInfo;
+export default StockTitle;

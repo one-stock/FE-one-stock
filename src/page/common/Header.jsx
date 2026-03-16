@@ -1,12 +1,14 @@
 import React from 'react';
 import Logo from '../../component/common/Logo';
+import { useNavigate } from 'react-router';
 
 const Header = () => {
+    const navigate = useNavigate();
     return (
         <div className='p-2 w-full flex justify-between items-center'>
-            <div>
+            <button className='' onClick={() => navigate("/")} >
                 <Logo/>
-            </div>
+            </button>
             <div>
                 햄버거메뉴
             </div>

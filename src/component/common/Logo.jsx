@@ -4,7 +4,7 @@ const Logo = () => {
   return (
     <img className='w-25 mt-0.5'
       src={LogoPng} 
-      alt={"logo"} 
+      alt={"logo이미지"} 
     />
   );
 };

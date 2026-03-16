@@ -13,19 +13,19 @@ const StockTab = () => {
         <div className='flex flex-col'>
             <div className='flex justify-around bg-bottom-color rounded-t-xl'>
                 <div className={`${isChart ? "text-white" : "text-black"}`}>
-                    <button onClick={() => navigate("/stocks/chart")}>차트 보기</button>
+                    <button type='button' onClick={() => navigate("/stocks/chart")}>차트 보기</button>
                 </div>
                 <div className={`${isInfo ? "text-white" : "text-black"}`}>
-                    <button onClick={() => navigate("/stocks/info")}>종목 정보</button>
+                    <button type='button' onClick={() => navigate("/stocks/info")}>종목 정보</button>
                 </div>
                 <div className={`${isFinance ? "text-white" : "text-black"}`}>
-                    <button onClick={() => navigate("/stocks/finance")}>재무 정보</button>
+                    <button type='button' onClick={() => navigate("/stocks/finance")}>재무 정보</button>
                 </div>
                 <div className={`${isInvest ? "text-white" : "text-black"}`}>
-                    <button onClick={() => navigate("/stocks/invest")}>투자 정보</button>
+                    <button type='button' onClick={() => navigate("/stocks/invest")}>투자 정보</button>
                 </div>
                 <div className={`${isCommunity ? "text-white" : "text-black"}`}>
-                    <button onClick={() => navigate("/stocks/community")}>커뮤니티</button>
+                    <button type='button' onClick={() => navigate("/stocks/community")}>커뮤니티</button>
                 </div>
             </div>
             <div>

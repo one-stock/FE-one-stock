@@ -6,7 +6,7 @@ const Header = () => {
     const navigate = useNavigate();
     return (
         <div className='p-2 w-full flex justify-between items-center'>
-            <button className='' onClick={() => navigate("/")} >
+            <button type='button' onClick={() => navigate("/")} >
                 <Logo/>
             </button>
             <div>

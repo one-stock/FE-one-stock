@@ -1,9 +1,11 @@
 import React from 'react';
+import StockOverview from './StockOverview';
 
 const StockInfo = () => {
     return (
-        <div >
-            뉴스
+        <div className='flex' >
+            <StockOverview/>
+            
         </div>
         
     );

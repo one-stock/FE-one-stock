@@ -1,4 +1,5 @@
 import React from 'react';
+import StockNews from './news/StockNews';
 
 const StockMainInfo = () => {
     return (
@@ -10,6 +11,9 @@ const StockMainInfo = () => {
                         <div>
                             <button type='button'>공시 </button>
                         </div>
+                    </div>
+                    <div className='bg-sub-color p-2 rounded-b-xl'>
+                    <StockNews/>
                     </div>
             </div>
     );

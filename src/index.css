@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --color-main-color : #1B3C53;
+  --color-sub-color : #234C6A;
+  --color-bottom-color : #D2C1B6;
+}
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   line-height: 1.5;  
   font-weight: 400;
   color-scheme: light dark;
@@ -27,11 +35,4 @@ body {
   a:hover {
     color: #747bff;
   }
-
-}
-
-@theme {
-  --color-main-color : #1B3C53;
-  --color-sub-color : #234C6A;
-  --color-bottom-color : #D2C1B6;
 }

@@ -11,7 +11,7 @@ const StockTab = () => {
     
     return (
         <div className='flex flex-col'>
-            <div className='flex justify-around bg-bottom-color rounded-t-xl'>
+            <div className='flex justify-around bg-bottom-color rounded-t-xl p-1'>
                 <div className={`${isChart ? "text-white" : "text-black"}`}>
                     <button type='button' onClick={() => navigate("/stocks/chart")}>차트 보기</button>
                 </div>
